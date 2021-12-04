@@ -16,14 +16,14 @@ image2.setAttribute("src", diceNumber2);
 
 if (number>number2)
 {
-    document.querySelector("h1").innerHTML="Player1 won";
+    document.querySelector("h2").innerHTML="Player1 won";
 }
 
 else if(number<number2)
 {
-    document.querySelector('h1').innerHTML="Player2 won "
+    document.querySelector('h2').innerHTML="Player2 won "
 }
 
 else{
-    document.querySelector("h1").innerHTML="Draw"
+    document.querySelector("h2").innerHTML="Draw"
 }
